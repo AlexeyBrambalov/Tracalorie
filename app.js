@@ -119,7 +119,7 @@ const UICtrl = (function() {
         html += `<li class="collection-item" id="item-${item.id}">
         <strong>${item.name}: </strong> <em>${item.calories} Calories</em>
         <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
+          <i class="edit-item fas fa-pencil-alt"></i>
         </a>
       </li>`;
       });
@@ -147,7 +147,7 @@ const UICtrl = (function() {
         item.calories
       } Calories</em>
       <a href="#" class="secondary-content">
-        <i class="edit-item fa fa-pencil"></i>
+        <i class="edit-item fas fa-pencil-alt"></i>
       </a>`;
       // Insert item
       document
@@ -168,7 +168,7 @@ const UICtrl = (function() {
             item.name
           }: </strong> <em>${item.calories} Calories</em>
           <a href="#" class="secondary-content">
-            <i class="edit-item fa fa-pencil"></i>
+            <i class="edit-item fas fa-pencil-alt"></i>
           </a>`;
         }
       });
